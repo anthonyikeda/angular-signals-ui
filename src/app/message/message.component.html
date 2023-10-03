@@ -1,0 +1,7 @@
+<p>message works!</p>
+<button (click)="addMessage()">Add Message</button>
+<ul>
+    <li *ngFor="let message of (messages())">{{message}}</li>
+</ul>
+
+Message Count: {{totalMessages()}}
